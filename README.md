@@ -1,5 +1,3 @@
-# DS-UA_201-Causal-Inference-Spring-2025
-DS-UA 201 Causal Inference (Spring 2025)
+# DS-UA_201-Causal-Inference-Fall-2026
+DS-UA 201 Causal Inference (Fall 2026)
 
-
-NO Lab on Friday, Feb 21.
