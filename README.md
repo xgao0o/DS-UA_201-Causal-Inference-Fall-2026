@@ -1,5 +1,7 @@
 # DS-UA 201: Causal Inference — Fall 2026
 
+DS-UA 201 Causal Inference (Fall 2026)
+
 ## Running a notebook
 
 Upload the notebook to [Google Colab](https://colab.research.google.com/) and choose **Runtime → Run all**. You can also click the 'Open in Colab' link in each notebook directly.
