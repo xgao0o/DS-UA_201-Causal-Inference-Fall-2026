@@ -2,6 +2,11 @@
 
 DS-UA 201 Causal Inference (Fall 2026)
 
+## Lab notebooks
+
+- [Week 1: Introduction to causal inference](labs/1-Introduction.ipynb)
+- [Week 2: Probability, dependence, and conditioning](labs/2-Probability.ipynb)
+
 ## Running a notebook
 
 Upload the notebook to [Google Colab](https://colab.research.google.com/) and choose **Runtime → Run all**. You can also click the 'Open in Colab' link in each notebook directly.
