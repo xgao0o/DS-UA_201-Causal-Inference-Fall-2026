@@ -9,7 +9,7 @@ DS-UA 201 Causal Inference (Fall 2026)
 - [Week 3: Statistics—estimation, sampling distributions, and inference](labs/3-Statistics.ipynb)
 - [Week 4: Experiments—random assignment, estimation, and interpretation](labs/4-Experiments.ipynb)
 - [Week 5: Regression—description, causality, and uncertainty](labs/5-Regression.ipynb)
-- [Week 6: Natural experiments](labs/6-Natural_Experiments.ipynb)
+- [Week 6: Natural experiments and midterm review](labs/6-Natural_Experiments.ipynb)
 
 ## Running a notebook
 
@@ -19,7 +19,7 @@ Upload the notebook to [Google Colab](https://colab.research.google.com/) and ch
 
 **Week 5 uses synthetic data generated in the notebook** and requires no data upload. It adds `statsmodels` for regression standard errors, with a 60-minute core and optional polynomial ridge regression and clustered-standard-error extensions.
 
-**Week 6 also uses [data/FinalAnon.dta](data/FinalAnon.dta)** for the historical Dutch Postcode Lottery example, copied unchanged from the Spring 2025 course materials. Upload it in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations when running locally. The notebook includes a 60-minute core, synthetic examples requiring no downloads, and optional control-variable and independence reviews. It uses the same dependencies as Week 5 and preserves the original authors’ attribution.
+**Week 6 also uses [data/FinalAnon.dta](data/FinalAnon.dta)** for the historical Dutch Postcode Lottery example, copied unchanged from the Spring 2025 course materials. Upload it in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations when running locally. The notebook includes a 60-minute combined session: 30 minutes on natural experiments and a 30-minute guided midterm review. Its 15 original exam-style questions have individually collapsible solutions; extra questions and the control-variable/independence extensions are available for further practice. Synthetic examples require no downloads. It uses the same dependencies as Week 5 and preserves the original authors’ attribution.
 
 Alternatively, in a local environment, use Python 3.10 or later. In an activated virtual environment, install the dependencies and start Jupyter:
 
