@@ -17,9 +17,7 @@ Upload the notebook to [Google Colab](https://colab.research.google.com/) and ch
 
 **Week 4 also uses [data/nsw.dta](data/nsw.dta).** Upload this file in Colab's Files sidebar before running the notebook. Locally, keep the `data/` and `labs/` folders in their repository locations and launch the notebook from either the repository root or `labs/`.
 
-**Week 5 uses synthetic data generated in the notebook** and requires no data upload. It adds `statsmodels` for regression standard errors, with a 60-minute core and optional polynomial ridge regression and clustered-standard-error extensions.
-
-**Week 6 also uses [data/FinalAnon.dta](data/FinalAnon.dta)** for the historical Dutch Postcode Lottery example, copied unchanged from the Spring 2025 course materials. Upload it in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations when running locally. The notebook includes a 60-minute combined session: 30 minutes on natural experiments and a 30-minute guided midterm review. Its 15 original exam-style questions have individually collapsible solutions; extra questions and the control-variable/independence extensions are available for further practice. Synthetic examples require no downloads. It uses the same dependencies as Week 5 and preserves the original authors’ attribution.
+**Week 6 also uses [data/FinalAnon.dta](data/FinalAnon.dta)** for the historical Dutch Postcode Lottery example. Upload it in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations when running locally.
 
 Alternatively, in a local environment, use Python 3.10 or later. In an activated virtual environment, install the dependencies and start Jupyter:
 
