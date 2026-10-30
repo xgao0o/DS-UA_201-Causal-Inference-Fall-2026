@@ -10,6 +10,7 @@ DS-UA 201 Causal Inference (Fall 2026)
 - [Week 4: Experiments—random assignment, estimation, and interpretation](labs/4-Experiments.ipynb)
 - [Week 5: Regression—description, causality, and uncertainty](labs/5-Regression.ipynb)
 - [Week 6: Natural experiments and midterm review](labs/6-Natural_Experiments.ipynb)
+- [Week 8: Control variables](labs/8-Control_Variables.ipynb)
 
 ## Running a notebook
 
@@ -18,6 +19,8 @@ Upload the notebook to [Google Colab](https://colab.research.google.com/) and ch
 **Week 4 also uses [data/nsw.dta](data/nsw.dta).** Upload this file in Colab's Files sidebar before running the notebook. Locally, keep the `data/` and `labs/` folders in their repository locations and launch the notebook from either the repository root or `labs/`.
 
 **Week 6 also uses [data/FinalAnon.dta](data/FinalAnon.dta)** for the historical Dutch Postcode Lottery example. Upload it in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations when running locally.
+
+**Week 8 uses only simulated data** and requires no accompanying files or downloads.
 
 Alternatively, in a local environment, use Python 3.10 or later. In an activated virtual environment, install the dependencies and start Jupyter:
 
