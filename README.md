@@ -12,6 +12,7 @@ DS-UA 201 Causal Inference (Fall 2026)
 - [Week 6: Natural experiments and midterm review](labs/6-Natural_Experiments.ipynb)
 - [Week 8: Control variables](labs/8-Control_Variables.ipynb)
 - [Week 9: Matching and instruments](labs/9-Matching_Instruments.ipynb)
+- [Week 10: Instrumental variables](labs/10-Instrumental_Variables.ipynb)
 
 ## Running a notebook
 
@@ -21,11 +22,12 @@ Upload the notebook to [Google Colab](https://colab.research.google.com/) and ch
 
 **Week 6 also uses [data/FinalAnon.dta](data/FinalAnon.dta)** for the historical Dutch Postcode Lottery example. Upload it in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations when running locally.
 
+**Week 10 also uses [data/sesame.csv](data/sesame.csv)** for the Sesame Street encouragement example. Upload this file in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations. Week 10 also requires `linearmodels` for IV estimation and robust standard errors.
 
 Alternatively, in a local environment, use Python 3.10 or later. In an activated virtual environment, install the dependencies and start Jupyter:
 
 ```bash
-python -m pip install jupyterlab numpy pandas matplotlib scipy statsmodels
+python -m pip install jupyterlab numpy pandas matplotlib scipy statsmodels linearmodels
 python -m jupyter lab
 ```
 
