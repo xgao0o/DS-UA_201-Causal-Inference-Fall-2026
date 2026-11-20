@@ -13,6 +13,7 @@ DS-UA 201 Causal Inference (Fall 2026)
 - [Week 8: Control variables](labs/8-Control_Variables.ipynb)
 - [Week 9: Matching and instruments](labs/9-Matching_Instruments.ipynb)
 - [Week 10: Instrumental variables](labs/10-Instrumental_Variables.ipynb)
+- [Week 11: Regression discontinuity—sharp and fuzzy RDD](labs/11-RDD.ipynb)
 
 ## Running a notebook
 
@@ -23,6 +24,8 @@ Upload the notebook to [Google Colab](https://colab.research.google.com/) and ch
 **Week 6 also uses [data/FinalAnon.dta](data/FinalAnon.dta)** for the historical Dutch Postcode Lottery example. Upload it in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations when running locally.
 
 **Week 10 also uses [data/sesame.csv](data/sesame.csv)** for the Sesame Street encouragement example. Upload this file in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations. Week 10 also requires `linearmodels` for IV estimation and robust standard errors.
+
+**Week 11 also uses [data/lee_data.csv](data/lee_data.csv) and [data/drinking.csv](data/drinking.csv)** for the election diagnostics and drinking-age RDD example. Upload both files in Colab’s Files sidebar, or keep `data/` and `labs/` in their repository locations.
 
 Alternatively, in a local environment, use Python 3.10 or later. In an activated virtual environment, install the dependencies and start Jupyter:
 
